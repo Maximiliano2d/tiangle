@@ -1,0 +1,247 @@
+/* colores #f44336 rojo,#ffffff blanco,#212121 gris */
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+header {
+  background-color: #f44336;
+}
+header img {
+  height: 140px;
+  width: 140px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+#logo {
+  text-decoration: none;
+  color: #212121;
+  font-family: "Jockey One", sans-serif;
+  font-size: 40px;
+}
+header nav .col-sm-6 {
+  padding-top: 25px;
+  float: left;
+}
+header nav ul {
+  margin-top: 40px;
+  float: right;
+}
+
+header nav ul li {
+  padding-left: 30px;
+  display: inline-block;
+}
+nav li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #212121;
+  font-size: 16px;
+}
+nav ul li a:hover {
+  color: #ffffff;
+  transition: 0.5s;
+}
+.contactoMenu {
+  float: right;
+}
+.contactoMenu i,
+.contactoMenu a {
+  color: #212121;
+  text-decoration: none;
+}
+.carousel-inner {
+  height: 450px;
+}
+
+.titulo {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+}
+
+#productos {
+  text-align: center;
+  color: #212121;
+}
+#productos .row {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+#productos img {
+  box-shadow: 3px 3px 10px;
+  border-radius: 4px;
+}
+
+#virtudes {
+  text-transform: uppercase;
+  background-color: #f44336;
+  color: #ffffff;
+  font-size: 20px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+#virtudes .row i {
+  text-align: right;
+  font-size: 60px;
+  margin-left: 40px;
+}
+#virtudes .row p {
+  text-align: left;
+  margin-left: 5px;
+}
+
+#presupuesto {
+  color: #ffffff;
+  background-image: url(./img/presupuesto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: right;
+  padding-right: 100px;
+}
+#presupuesto h2 {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin: 0;
+}
+#presupuesto p {
+  margin-top: 0;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+#presupuesto a {
+  text-transform: uppercase;
+  font-size: 16px;
+  background: #f44336;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer {
+  background-color: #212121;
+  text-align: left;
+}
+
+footer .col-sm-3 p {
+  color: #f44336;
+  margin-top: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+footer .col-sm-3 ul {
+  padding-left: 0;
+}
+footer .col-sm-3 li {
+  list-style: none;
+  margin-top: 5px;
+}
+footer .col-sm-3 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+footer .col-sm-3 a:hover {
+  color: #f44336);
+  transition: 0.5s;
+}
+footer .col-sm-3 a i {
+  font-size: 30px;
+  color: #f44336;
+}
+footer .col-sm-3 a i:hover {
+  color: #ffffff;
+  transition: 0.5s;
+}
+footer .col-sm-4 p {
+  color: #f44336;
+  margin-top: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+footer .col-sm-4 li {
+  list-style: none;
+  margin-top: 20px;
+}
+footer .col-sm-4 i {
+  color: #f44336;
+  font-size: 20px;
+}
+footer .col-sm-4 a {
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-left: 20px;
+  text-decoration: none;
+  text-align: left;
+}
+footer .col-sm-4 a:hover {
+  color: #f44336;
+  transition: 0.5s;
+}
+
+#contacto {
+  margin-top: 40px;
+  background-color: #212121;
+}
+
+#empresa .row {
+  padding-bottom: 60px;
+}
+.empresaTxt h2 {
+  font-family: sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #f44336;
+}
+.empresaTxt p {
+  margin-top: 30px;
+}
+.empresaImg .col-sm-6:nth-child(1) img {
+  height: 100%;
+  width: 180px;
+}
+.empresaImg .col-sm-6:nth-child(2) img {
+  width: 180px;
+  height: 160px;
+}
+.empresaImg .col-sm-6:nth-child(2) img:nth-child(2) {
+  margin-top: 40px;
+}
+.contactoPersonal li {
+  list-style: none;
+  text-align: center;
+}
+.contactoPersonal i {
+  font-size: 80px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  color: #f44336;
+}
+.contactoPersonal a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #212121;
+}
+
+.form-control {
+  margin-top: 40px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0px;
+}
+label {
+  color: #666;
+}
+#floatingInput1 {
+  height: 100px;
+}
+#mensaje {
+  height: 137px;
+}
